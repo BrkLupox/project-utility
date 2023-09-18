@@ -19,7 +19,7 @@ a{
 
 body{
     font-family: 'Poppins' , sans-serif;
-    background-color: #18181b;
+    background-color: #c5c5ca;
 }
 
 nav{
@@ -56,7 +56,7 @@ nav{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #72177e;
+    background-color: #ffffff;
     transition: all 0.3s ease;
 }
 
@@ -67,15 +67,15 @@ nav{
 .btn{
     padding: 1rem 2rem;
     font-size: 1rem;
-    color: #fff;
-    background-color: #72177e;
+    color: #000000;
+    background-color: #f6f5f7;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover{
-    background-color: #72177e;
+    background-color: #ffffff;
 }
 
 .container{
@@ -86,7 +86,7 @@ nav{
 
 .blur{
     position: absolute;
-    box-shadow: 0 0 1000px 50px #72177e;
+    box-shadow: 0 0 1000px 50px #7c7c7c;
     z-index: -100;
 }
 
@@ -101,7 +101,7 @@ header{
 
 header .content h4{
     margin-bottom: 1rem;
-    color: #ccc;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -121,7 +121,7 @@ header .content h1 span{
 
 header .content p{
     margin-bottom: 2rem;
-    color: #ccc;
+    color: #333333;
 }
 
 header .image{
@@ -137,8 +137,38 @@ header .image::before{
     font-size: 38rem;
     font-weight: 400;
     line-height: 20rem;
-    color: #72177e;
+    color: #f2ecf3;
     opacity: 0.2;
     z-index: -100;
 }
 
+header .image img{
+    max-width: 400px;
+    margin: auto;
+}
+
+section .header{
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+.features .card{
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.features .card:hover{
+    background-color: #a7a7a7;
+    border-color: #fff;
+}
