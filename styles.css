@@ -189,3 +189,17 @@ section .header{
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+.features .card p{
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.features .card a{
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.features .card a:hover{
+    color: #fff;
+}
